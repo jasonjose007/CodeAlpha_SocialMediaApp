@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - Jworld</title>
+
+<link rel="stylesheet" href="css/auth.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="login-container">
+
+    <!-- Left Section -->
+
+    <div class="left-panel">
+
+        <h1>Jworld</h1>
+
+        <p>
+            Join Jworld and connect with people,
+            share your moments and build your network.
+        </p>
+
+        <div class="features">
+
+            <p>
+                <i class="fas fa-user-plus"></i>
+                Create Your Profile
+            </p>
+
+            <p>
+                <i class="fas fa-heart"></i>
+                Like & Comment
+            </p>
+
+            <p>
+                <i class="fas fa-users"></i>
+                Follow Friends
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- Register Card -->
+
+    <div class="login-card">
+
+        <h2>Create Account 🚀</h2>
+
+        <form id="registerForm">
+
+            <input
+            type="text"
+            id="username"
+            placeholder="Username"
+            required>
+
+            <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            required>
+
+            <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required>
+
+            <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm Password"
+            required>
+
+            <p id="errorMessage"></p>
+
+            <button
+            type="submit"
+            class="login-btn">
+                Create Account
+            </button>
+
+        </form>
+
+        <div class="divider">
+            <span>OR</span>
+        </div>
+
+        <a href="login.html">
+            <button class="register-btn">
+                Back To Login
+            </button>
+        </a>
+
+    </div>
+
+</div>
+
+<script src="js/register.js"></script>
+
+</body>
+</html>
